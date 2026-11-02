@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExtensionManifest Version="7.0" ExtensionBundleId="com.custom.openscriptpanel" ExtensionBundleVersion="0.1.0" ExtensionBundleName="OpenScript Panel">
+  <ExtensionList>
+    <Extension Id="com.custom.openscriptpanel.panel" Version="0.1.0" />
+  </ExtensionList>
+  <ExecutionEnvironment>
+    <HostList>
+      <Host Name="ILST" Version="[24.0,99.9]" />
+    </HostList>
+    <LocaleList>
+      <Locale Code="All" />
+    </LocaleList>
+    <RequiredRuntimeList>
+      <RequiredRuntime Name="CSXS" Version="8.0" />
+    </RequiredRuntimeList>
+  </ExecutionEnvironment>
+  <DispatchInfoList>
+    <Extension Id="com.custom.openscriptpanel.panel">
+      <DispatchInfo>
+        <Resources>
+          <MainPath>./client/index.html</MainPath>
+          <ScriptPath>./host/index.jsx</ScriptPath>
+          <CEFCommandLine>
+            <Parameter>--enable-nodejs</Parameter>
+            <Parameter>--mixed-context</Parameter>
+          </CEFCommandLine>
+        </Resources>
+        <Lifecycle>
+          <AutoVisible>true</AutoVisible>
+        </Lifecycle>
+        <UI>
+          <Type>Panel</Type>
+          <Menu>OpenScript Panel</Menu>
+          <Icons>
+              <Icon Type="Normal">./client/img/icon_normal.png</Icon>
+              <Icon Type="RollOver">./client/img/icon_normal.png</Icon>
+              <Icon Type="DarkNormal">./client/img/icon_dark.png</Icon>
+              <Icon Type="DarkRollOver">./client/img/icon_dark.png</Icon>
+          </Icons>
+          <Geometry>
+            <Size>
+              <Height>600</Height>
+              <Width>350</Width>
+            </Size>
+            <MinSize>
+              <Height>300</Height>
+              <Width>250</Width>
+            </MinSize>
+          </Geometry>
+        </UI>
+      </DispatchInfo>
+    </Extension>
+  </DispatchInfoList>
+</ExtensionManifest>
