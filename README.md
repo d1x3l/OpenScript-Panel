@@ -6,7 +6,7 @@ Un pannello moderno, gratuito e open-source per **Adobe Illustrator** progettato
 ## 🚀 Download & Installazione
 
 1. Scarica l'installer automatico `OpenScriptPanel_Setup_v0.1.0_Beta.exe` dalla sezione [Releases](../../releases/latest).
-2. Avvia il file `.exe` e completa l'installazione guidata.
+2. Avvia il file `.exe` per installarlo in pochi secondi.
 3. Apri Illustrator e trova il pannello sotto **Finestra > Estensioni > OpenScript Panel**.
 
 ---
@@ -18,13 +18,7 @@ Un pannello moderno, gratuito e open-source per **Adobe Illustrator** progettato
 - **Selezione Marquee:** Drag-to-select per selezionare e spostare più script o cartelle contemporaneamente.
 - **Menu Contestuale:** Clic con il tasto destro per rinominare, gestire tag, aprire la posizione file o eliminare.
 - **Organizzazione Flessibile:** Supporto a cartelle virtuali, tag personalizzati e lista dei preferiti.
--  **🌐 Lingua:** Interfaccia utente nativa interamente in Italiano.
-
----
-
-## 🤖 Built with AI / Vibe Coded
-
-Questo progetto è stato interamente sviluppato tramite "vibe coding" in collaborazione con l'IA (Gemini), a dimostrazione di come sia possibile guidare un LLM nella creazione da zero di un'estensione CEP nativa e completa per Adobe Illustrator.
+- **Lingua:** Interfaccia utente nativa interamente in Italiano.
 
 ---
 
