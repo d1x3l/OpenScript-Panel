@@ -1,4 +1,6 @@
 # OpenScript Panel (v0.1.0-beta)
+<img width="441" height="797" alt="Anteprima OpenScript Panel" src="https://github.com/user-attachments/assets/76a4320d-3c02-4bce-9920-defc1e21e1c6" />
+
 > 🇮🇹 **Nota:** L'interfaccia del pannello e la documentazione sono attualmente disponibili in **Italiano**.
 
 Un pannello moderno, gratuito e open-source per **Adobe Illustrator** progettato per organizzare, filtrare ed eseguire velocemente le tue librerie di script `.jsx` e `.js`.
