@@ -3,8 +3,17 @@
 
 Un pannello moderno, gratuito e open-source per **Adobe Illustrator** progettato per organizzare, filtrare ed eseguire velocemente le tue librerie di script `.jsx` e `.js`.
 
-<img width="441" height="797" alt="Anteprima OpenScript Panel" src="https://github.com/user-attachments/assets/76a4320d-3c02-4bce-9920-defc1e21e1c6" />
-
+<details>
+  <summary>📸 <b>Clicca qui per sfogliare la Galleria Screenshot</b></summary>
+  <br>
+  <p align="center">
+    <img src="https://github.com/user-attachments/assets/76a4320d-3c02-4bce-9920-defc1e21e1c6" width="80%" alt="Schermata 1"><br>
+    <i>Vista principale del pannello</i>
+    <br><br>
+    <img src="https://github.com/user-attachments/assets/2b44e50f-2a2b-4b43-89a9-d6f79a22a7b9" width="80%" alt="Schermata 2"><br>
+    <i>Cartelle</i>
+  </p>
+</details>
 
 ## 🚀 Download & Installazione
 
