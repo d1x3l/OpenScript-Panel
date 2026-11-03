@@ -27,7 +27,16 @@ Un pannello moderno, gratuito e open-source per **Adobe Illustrator** progettato
   </p>
 </details>
 
+---
 
+## ✨ Funzionalità
+
+- **Esecuzione in un clic:** Pulsanti di avvio per tutti gli script.
+- **Selezione Marquee:** Drag-to-select per selezionare e spostare più script o cartelle contemporaneamente.
+- **Menu Contestuale:** Clic con il tasto destro per rinominare, gestire tag, aprire la posizione file o eliminare.
+- **Organizzazione Flessibile:** Cartelle virtuali, tag personalizzati, lista dei preferiti e cronologia.
+
+---
 
 ## 🚀 Installazione
 
@@ -39,7 +48,7 @@ Un pannello moderno, gratuito e open-source per **Adobe Illustrator** progettato
 
 2. Assicurati che Adobe Illustrator sia chiuso.
 
-3. Esegui il file `.exe` con un doppio clic e completa l'installazione guidata.
+3. Esegui il file `.exe` con un doppio clic e completa l'installazione.
 
 4. Apri Illustrator: troverai il pannello sotto **Finestra > Estensioni > OpenScript Panel**.
 
@@ -102,15 +111,6 @@ Un pannello moderno, gratuito e open-source per **Adobe Illustrator** progettato
    * Salva il file.
 
 6. Apri Adobe Illustrator e avvia il pannello da **Finestra > Estensioni > OpenScript Panel**.
-
----
-
-## ✨ Funzionalità
-
-- **Esecuzione in un clic:** Pulsanti di avvio per tutti gli script.
-- **Selezione Marquee:** Drag-to-select per selezionare e spostare più script o cartelle contemporaneamente.
-- **Menu Contestuale:** Clic con il tasto destro per rinominare, gestire tag, aprire la posizione file o eliminare.
-- **Organizzazione Flessibile:** Cartelle virtuali, tag personalizzati, lista dei preferiti e cronologia.
 
 ---
 
