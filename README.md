@@ -28,11 +28,80 @@ Un pannello moderno, gratuito e open-source per **Adobe Illustrator** progettato
 </details>
 
 
-## 🚀 Download & Installazione
 
-1. Scarica l'installer automatico `OpenScriptPanel_Setup_v0.1.0_Beta.exe` dalla sezione [Releases](../../releases/latest).
-2. Avvia il file `.exe` per installarlo in pochi secondi.
-3. Apri Illustrator e trova il pannello sotto **Finestra > Estensioni > OpenScript Panel**.
+## 🚀 Installazione
+
+### 🪟 Windows
+
+#### Opzione A: Installatore Automatico `.exe` (Consigliato)
+
+1. Vai nella sezione [**Releases**](../../releases/latest) della repository e scarica il file `OpenScriptPanel_Setup_v0.1.0_Beta.exe`.
+
+2. Assicurati che Adobe Illustrator sia chiuso.
+
+3. Esegui il file `.exe` con un doppio clic e completa l'installazione guidata.
+
+4. Apri Illustrator: troverai il pannello sotto **Finestra > Estensioni > OpenScript Panel**.
+
+#### Opzione B: Installazione Manuale
+
+1. Scarica e scompatta il codice sorgente o il file `.zip` della release.
+
+2. Copia l'intera cartella dell'estensione (`com.custom.openscriptpanel`) nella directory CEP di Windows:
+
+   ```
+   C:\Users\<TuoNomeUtente>\AppData\Roaming\Adobe\CEP\extensions\
+   
+   ```
+
+   *(Puoi accedere velocemente premendo `Win + R`, digitando `%appdata%\Adobe\CEP\extensions` e premendo Invio).*
+
+3. **Abilita la modalità debug CEP:**
+
+   * Premi `Win + R`, digita `regedit` e premi Invio per aprire il Registro di Sistema.
+
+   * Vai nel percorso `HKEY_CURRENT_USER\Software\Adobe\CSXS.11` *(o la versione corrispondente al tuo Illustrator, es. CSXS.10 o CSXS.12)*.
+
+   * Crea un valore stringa (**String Value**) chiamato `PlayerDebugMode` e impostane il valore su `1`.
+
+4. Riapri Illustrator e avvia il pannello da **Finestra > Estensioni > OpenScript Panel**.
+
+### 🍏 macOS
+
+#### Installazione Manuale & Configurazione
+
+1. Scarica e scompatta l'archivio `.zip` della release.
+
+2. Apri il **Finder**, premi la combinazione di tasti `Cmd + Shift + G` e incolla il seguente percorso:
+
+   ```
+   ~/Library/Application Support/Adobe/CEP/extensions/
+   
+   ```
+
+3. Copia all'interno la cartella scompattata dell'estensione (`com.custom.openscriptpanel`).
+
+4. **Abilita la modalità sviluppatore CEP:**
+
+   * Apri il **Terminale** di macOS e incolla questo comando:
+
+     ```
+     defaults write com.adobe.CSXS.11 PlayerDebugMode 1
+     
+     ```
+
+5. **⚠️ IMPORTANTE — Modifica del percorso cartella nel codice:**
+   Poiché macOS utilizza la sintassi dei percorsi Unix (`/Users/...`), devi aggiornare il percorso predefinito degli script nel codice prima di usare il pannello:
+
+   * Apri la cartella dell'estensione e vai in `client/main.js`.
+
+   * Cerca la riga di codice in cui è specificata la variabile del percorso predefinito per la cartella degli script.
+
+   * Sostituisci il percorso nel formato Windows (es. `C:\\Users\\...`) con il percorso relativo al tuo Mac (es. `/Users/nomeutente/Documents/Scripts`).
+
+   * Salva il file.
+
+6. Apri Adobe Illustrator e avvia il pannello da **Finestra > Estensioni > OpenScript Panel**.
 
 ---
 
