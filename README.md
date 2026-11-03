@@ -7,22 +7,22 @@ Un pannello moderno, gratuito e open-source per **Adobe Illustrator** progettato
   <summary>📸 <b>Clicca qui per sfogliare la Galleria Screenshot</b></summary>
   <br>
   <p align="center">
-    <img src="https://github.com/user-attachments/assets/76a4320d-3c02-4bce-9920-defc1e21e1c6" width="80%" alt="Principale"><br>
+    <img src="https://github.com/user-attachments/assets/76a4320d-3c02-4bce-9920-defc1e21e1c6" width="50%" alt="Principale"><br>
     <i>Vista principale del pannello</i>
     <br><br>
-    <img src="https://github.com/user-attachments/assets/2b44e50f-2a2b-4b43-89a9-d6f79a22a7b9" width="80%" alt="Cartelle"><br>
+    <img src="https://github.com/user-attachments/assets/2b44e50f-2a2b-4b43-89a9-d6f79a22a7b9" width="50%" alt="Cartelle"><br>
     <i>Cartelle</i>
     <br><br>
-    <img src="https://github.com/user-attachments/assets/5720f549-2373-49ba-afcb-9410175d00f2" width="80%" alt="Preferiti"><br>
+    <img src="https://github.com/user-attachments/assets/5720f549-2373-49ba-afcb-9410175d00f2" width="50%" alt="Preferiti"><br>
     <i>Preferiti</i>
     <br><br>
-    <img src="https://github.com/user-attachments/assets/fe2e1486-e340-4b92-96b9-0ccd3888ee46" width="80%" alt="Cronologia"><br>
+    <img src="https://github.com/user-attachments/assets/fe2e1486-e340-4b92-96b9-0ccd3888ee46" width="50%" alt="Cronologia"><br>
     <i>Cronologia</i>
     <br><br>
-    <img src="https://github.com/user-attachments/assets/55125002-b108-4c39-8059-a8e39ddccf90" width="80%" alt="Tasto destro"><br>
+    <img src="https://github.com/user-attachments/assets/55125002-b108-4c39-8059-a8e39ddccf90" width="50%" alt="Tasto destro"><br>
     <i>Tasto destro / menu tre puntini</i>
     <br><br>
-    <img src="https://github.com/user-attachments/assets/3e453761-1cd3-43a8-bac6-9d3578016874" width="80%" alt="Gestione Tag"><br>
+    <img src="https://github.com/user-attachments/assets/3e453761-1cd3-43a8-bac6-9d3578016874" width="50%" alt="Gestione Tag"><br>
     <i>Gestione Tag</i>
   </p>
 </details>
